@@ -1,0 +1,30 @@
+{
+    "performance": {
+        "process": 2,
+        "threads": 100
+    },
+    "request": {
+        "module": "socket/httpx/aiohttp/requests",
+        "timeout": 5,
+        "proxyLess": false
+    },
+    "groupRanges": {
+        "method": {
+            "sortedIds": false,
+            "randomIds": true
+        },
+        "min": 32000000,
+        "max": 32700000,
+        "batchsize": 100
+    },
+    "webhook": {
+        "url": "webhok enteration frfr",
+        "groupPing": true
+    },
+    "proxy": {
+        "scrapeProxies": false,
+        "sources": [
+           "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
+       ]
+    }
+}
